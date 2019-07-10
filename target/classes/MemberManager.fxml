@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="677.0" prefWidth="917.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="netcafe.MemberController">
+   <children>
+      <TableView layoutX="137.0" layoutY="52.0" prefHeight="249.0" prefWidth="620.0">
+        <columns>
+          <TableColumn fx:id="columnUsername" prefWidth="183.0" text="Username" />
+          <TableColumn fx:id="columnPassword" minWidth="0.0" prefWidth="234.0" text="Password" />
+            <TableColumn fx:id="columnRemainTime" minWidth="0.0" prefWidth="202.0" text="RemainTime" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtUsername" layoutX="209.0" layoutY="323.0" prefHeight="31.0" prefWidth="142.0" promptText="Username" text="Username" />
+      <TextField fx:id="txtAvatar" layoutX="388.0" layoutY="323.0" prefHeight="31.0" prefWidth="142.0" promptText="Avatar" text="Avatar" />
+      <TextField fx:id="txtFullname" layoutX="567.0" layoutY="323.0" prefHeight="31.0" prefWidth="142.0" promptText="Fullname" text="Fullname" />
+      <TextField fx:id="txtPassword" layoutX="209.0" layoutY="378.0" prefHeight="31.0" prefWidth="142.0" promptText="Password" text="Password" />
+      <TextField fx:id="txtRemainTime" layoutX="388.0" layoutY="378.0" prefHeight="31.0" prefWidth="142.0" promptText="RemainTime" text="RemainTime" />
+      <TextField fx:id="txtStatus" layoutX="567.0" layoutY="378.0" prefHeight="31.0" prefWidth="142.0" promptText="Status" text="Status" />
+      <Button fx:id="btnUpdate" layoutX="313.0" layoutY="460.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="127.0" text="Update" />
+      <Button fx:id="btnDelete" layoutX="511.0" layoutY="460.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="127.0" text="Delete" />
+   </children>
+</AnchorPane>
